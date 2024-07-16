@@ -7,6 +7,7 @@ public class ConcurrentGame {
 
     private static int amount = 0;
 
+
     private static boolean exit = false;
 
     public static void main(String[] args) {
@@ -18,10 +19,10 @@ public class ConcurrentGame {
             // Opening Threads for operations
 
 
-            Thread depositThread = new Thread();
-            Thread withdrawThread = new Thread();
-            Thread transferThread = new Thread();
-            Thread balanceThread = new Thread();
+//            Thread depositThread = new Thread();
+//            Thread withdrawThread = new Thread();
+//            Thread transferThread = new Thread();
+//            Thread balanceThread = new Thread();
 
 
             Scanner scan = new Scanner(System.in);
